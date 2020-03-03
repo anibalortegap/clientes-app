@@ -1,11 +1,11 @@
 import { Client } from './client';
 import { Group } from './group';
-import { ClientesModule } from './clientes.module'
+
 
 import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: ClientesModule
+  providedIn: 'root'
 })
 export class ClientsService {
 
